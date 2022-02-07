@@ -1,9 +1,3 @@
-Jenkinsfile (Declarative Pipeline)
-node {
-    scm checkout
-    https://github.com/rwheeler-7864/practice-tools.git
-}
-
 pipeline {
     agent any
 
